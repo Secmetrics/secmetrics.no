@@ -1,38 +1,37 @@
 +++
 title = "What we believe is creation"
 
-
 # The homepage contents
 [extra]
 lead = '<b>Secmetrics AS</b> is an innovation startup located in Gjøvik, Norway.'
 url = "/products/getting-started/introduction/"
-url_button = "Get started"
-repo_version = "GitHub v0.1.0"
-repo_license = "Open-source MIT License."
-repo_url = "https://github.com/secmetrics/secmetrics.no"
+url_button = "Contact us"
+repo_version = "GitHub"
+repo_license = "Follow us on"
+repo_url = "https://github.com/secmetrics"
 
 [[extra.list]]
 title = "Security aware"
-content = 'Get A+ scores on <a href="https://observatory.mozilla.org/analyze/adidoks.org">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.'
+content = 'Security is alway our first priority, that is our solid products based on.'
 
 [[extra.list]]
 title = "Fast by default ⚡️"
-content = 'Get 100 scores on <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=7731347bb8ce999eff7428a8e763b637">Google Lighthouse</a> by default. Doks removes unused css, prefetches links, and lazy loads images.'
+content = 'Performance is our default option when making solutions.'
+
+[[extra.list]]
+title = "As simple as possible"
+content = "Keep our solutions ASAP giving us competition advantage, as well as our customers."
 
 [[extra.list]]
 title = "SEO-ready"
-content = "Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking."
+content = "Our web solutions are always SEO-ready."
 
 [[extra.list]]
-title = "Full text search"
-content = "Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking."
+title = "Responsive designs"
+content = "Giving the best user experiences across all the devices, desktops, mobiles, Tablets, etc."
 
 [[extra.list]]
-title = "Page layouts"
-content = "Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs."
-
-[[extra.list]]
-title = "Dark mode"
-content = "Switch to a low-light UI with the click of a button. Change colors with variables to match your branding."
+title = "Accessibility"
+content = 'Every user has the equal right to access our solutions which are <a href="https://www.w3.org/TR/WCAG21/">Web Content Accessibility Guidelines (WCAG)</a> compliant.'
 
 +++
