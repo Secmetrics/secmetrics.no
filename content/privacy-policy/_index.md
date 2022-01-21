@@ -24,4 +24,4 @@ __TLDR__: We do not use cookies and we do not collect any personal data.
 
 [Contact us](https://github.com/aaranxu/adidoks) if you have any questions.
 
-Effective Date: _1st May 2021_
+Effective Date: _1st Jan 2022_

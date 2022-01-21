@@ -139,5 +139,5 @@ weight = 10
 
 [[extra.footer.nav]]
 name = "Contact"
-url = "/products/contributing/code-of-conduct/"
+url = "/contact/"
 weight = 20
