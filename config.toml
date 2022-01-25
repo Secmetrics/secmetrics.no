@@ -106,7 +106,7 @@ site_links_search_box = true
 [[extra.menu.main]]
 name = "Products"
 section = "products"
-url = "/products/getting-started/introduction/"
+url = "/products/bao/introduction/"
 weight = 10
 
 [[extra.menu.main]]
