@@ -112,7 +112,7 @@ weight = 10
 [[extra.menu.main]]
 name = "Services"
 section = "services"
-url = "/services/"
+url = "/services/penetration-testing/introduction/"
 weight = 20
 
 [[extra.menu.main]]

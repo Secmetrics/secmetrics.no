@@ -86,25 +86,24 @@
         <loc>https://secmetrics.no/services/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/hello-world/</loc>
-        <lastmod>2021-05-01T09:19:42+00:00</lastmod>
+        <loc>https://secmetrics.no/services/access-control/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/markdown-syntax/</loc>
-        <lastmod>2021-04-20T09:19:42+00:00</lastmod>
+        <loc>https://secmetrics.no/services/access-control/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/math-typesetting/</loc>
-        <lastmod>2021-04-08T09:19:42+00:00</lastmod>
+        <loc>https://secmetrics.no/services/penetration-testing/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/page/1/</loc>
+        <loc>https://secmetrics.no/services/penetration-testing/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/page/2/</loc>
+        <loc>https://secmetrics.no/services/security-auditing/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/placeholder-text/</loc>
-        <lastmod>2021-04-10T09:19:42+00:00</lastmod>
+        <loc>https://secmetrics.no/services/security-auditing/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
 </urlset>
