@@ -7,9 +7,6 @@
         <loc>https://secmetrics.no/authors/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/authors/aaran-xu/</loc>
-    </url>
-    <url>
         <loc>https://secmetrics.no/authors/public/</loc>
     </url>
     <url>
@@ -21,6 +18,31 @@
     </url>
     <url>
         <loc>https://secmetrics.no/contact/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/hello-world/</loc>
+        <lastmod>2021-05-01T09:19:42+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/markdown-syntax/</loc>
+        <lastmod>2021-04-20T09:19:42+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/math-typesetting/</loc>
+        <lastmod>2021-04-08T09:19:42+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/page/2/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/news/placeholder-text/</loc>
+        <lastmod>2021-04-10T09:19:42+00:00</lastmod>
     </url>
     <url>
         <loc>https://secmetrics.no/privacy-policy/</loc>
@@ -40,33 +62,25 @@
         <lastmod>2021-01-01T08:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://secmetrics.no/products/ev-action/</loc>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/products/ev-action/introduction/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/products/ev-action/quick-start/</loc>
-        <lastmod>2021-01-01T08:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/products/extra-charger/</loc>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/products/extra-charger/introduction/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/products/extra-charger/quick-start/</loc>
-        <lastmod>2021-01-01T08:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://secmetrics.no/products/help/</loc>
     </url>
     <url>
         <loc>https://secmetrics.no/products/help/faq/</loc>
         <lastmod>2021-01-01T19:30:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/products/secgate-seckey/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/products/secgate-seckey/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/products/sectower/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/products/sectower/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://secmetrics.no/services/</loc>
@@ -90,14 +104,7 @@
         <loc>https://secmetrics.no/services/page/2/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/services/page/3/</loc>
-    </url>
-    <url>
         <loc>https://secmetrics.no/services/placeholder-text/</loc>
         <lastmod>2021-04-10T09:19:42+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/services/say-hello-to-zola-doks/</loc>
-        <lastmod>2021-04-03T07:00:00+00:00</lastmod>
     </url>
 </urlset>

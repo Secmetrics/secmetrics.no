@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
   <link rel="preload" as="font" href="https://secmetrics.no/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="https://secmetrics.no/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
 
-
+  
 <link rel="stylesheet" href="https://secmetrics.no/main.css">
 
 
-
   
   
   
   
   
-    
   
-
+  
+  
+  
   
   
     
@@ -185,7 +186,7 @@
 
 
 
-
+  
   <meta name="theme-color" content="#fff">
   <link rel="apple-touch-icon" sizes="180x180" href="https://secmetrics.no/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="https://secmetrics.no/favicon-32x32.png">
@@ -194,7 +195,7 @@
     <link rel="manifest" href="https://secmetrics.no/site.webmanifest" crossorigin>
   
 
-
+  
   
     
       <!-- KaTeX -->
@@ -207,6 +208,7 @@
 </head>
 
   
+
 
 <body class="blog single">
   
@@ -246,6 +248,10 @@
 							<a class="nav-link" href="https://secmetrics.no/services/">Services</a>
 						</li>
 					
+						<li class="nav-item">
+							<a class="nav-link" href="https://secmetrics.no/news/">News</a>
+						</li>
+					
 				
 			</ul>
 			<div class="break order-6 d-md-none"></div>
@@ -281,10 +287,10 @@
 <li>Within this macro reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
 <li>Import the macro in your templates like so:</li>
 </ul>
-<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">{</span><span>% import &#39;</span><span style="color:#a3be8c;">macros/math.html</span><span>&#39; as macros %}</span><span>
-</span><span style="color:#bf616a;">{</span><span>% if page.extra.math or section.extra.math or config.extra.math %}</span><span>
-</span><span style="color:#bf616a;">{{</span><span> macros::math() }}</span><span>
-</span><span style="color:#bf616a;">{</span><span>% endif %}</span><span>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">{</span><span>% import &#39;</span><span style="color:#a3be8c;">macros/math.html</span><span>&#39; as macros %}
+</span><span style="color:#bf616a;">{</span><span>% if page.extra.math or section.extra.math or config.extra.math %}
+</span><span style="color:#bf616a;">{{</span><span> macros::math() }}
+</span><span style="color:#bf616a;">{</span><span>% endif %}
 </span></code></pre>
 <ul>
 <li>To enable KaTex globally set the parameter <code>extra.math</code> to <code>true</code> in a project's configuration</li>
@@ -312,7 +318,7 @@ $$</p>
 
 
   
-    
+  
 <footer class="footer text-muted">
 	<div class="container">
 		<div class="row">
@@ -347,6 +353,7 @@ $$</p>
   <script type="text/javascript" src="https://secmetrics.no/search_index.en.js" defer></script>
   <script type="text/javascript" src="https://secmetrics.no/js/search.js" defer></script>
 
-  
+
 </body>
+
 </html>
