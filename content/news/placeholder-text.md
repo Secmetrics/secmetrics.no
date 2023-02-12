@@ -7,7 +7,7 @@ draft = false
 template = "news/page.html"
 
 [taxonomies]
-authors = ["Public"]
+authors = ["Secmetrics"]
 
 +++
 

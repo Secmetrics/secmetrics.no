@@ -7,7 +7,7 @@ draft = false
 template = "news/page.html"
 
 [taxonomies]
-authors = ["Rustaceans"]
+authors = ["Secmetrics"]
 
 [extra]
 lead = "This is the source code of the traditional <b>Hello World</b> program."

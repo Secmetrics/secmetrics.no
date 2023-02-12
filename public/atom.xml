@@ -11,8 +11,8 @@
 		<title>Secmetrics AS</title>
 		<published>2022-01-01T08:50:45+00:00</published>
 		<updated>2022-01-01T08:50:45+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/authors/secmetrics-as/" type="text/html"/>
-		<id>https://secmetrics.no/authors/secmetrics-as/</id>
+		<link rel="alternate" href="https://secmetrics.no/authors/secmetrics/" type="text/html"/>
+		<id>https://secmetrics.no/authors/secmetrics/</id>
 		<content type="html">&lt;p&gt;Creator.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Secmetrics&quot;&gt;@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -83,6 +83,16 @@
 		<updated>2021-05-01T08:00:00+00:00</updated>
 		<link rel="alternate" href="https://secmetrics.no/services/access-control/introduction/" type="text/html"/>
 		<id>https://secmetrics.no/services/access-control/introduction/</id>
+		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+&lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Biometrics</title>
+		<published>2021-05-01T08:00:00+00:00</published>
+		<updated>2021-05-01T08:00:00+00:00</updated>
+		<link rel="alternate" href="https://secmetrics.no/services/biometrics/introduction/" type="text/html"/>
+		<id>https://secmetrics.no/services/biometrics/introduction/</id>
 		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>

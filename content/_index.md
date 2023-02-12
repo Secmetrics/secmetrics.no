@@ -1,13 +1,13 @@
 +++
-title = "What we believe is creation"
+title = "Security is a manner of creation"
 
 # The homepage contents
 [extra]
-lead = '<b>Secmetrics AS</b> is an innovation startup located in Gjøvik, Norway.'
-url = "/products/getting-started/introduction/"
+lead = '<b>Secmetrics AS</b> is an information security consulting/services company located in Gjøvik, Norway.'
+url = "/contact/"
 url_button = "Contact us"
 repo_version = "GitHub"
-repo_license = "Follow us on"
+repo_license = "Check our open source projects on"
 repo_url = "https://github.com/secmetrics"
 
 [[extra.list]]

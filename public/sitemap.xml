@@ -7,13 +7,7 @@
         <loc>https://secmetrics.no/authors/</loc>
     </url>
     <url>
-        <loc>https://secmetrics.no/authors/public/</loc>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/authors/rustaceans/</loc>
-    </url>
-    <url>
-        <loc>https://secmetrics.no/authors/secmetrics-as/</loc>
+        <loc>https://secmetrics.no/authors/secmetrics/</loc>
         <lastmod>2022-01-01T08:50:45+00:00</lastmod>
     </url>
     <url>
@@ -90,6 +84,13 @@
     </url>
     <url>
         <loc>https://secmetrics.no/services/access-control/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/services/biometrics/</loc>
+    </url>
+    <url>
+        <loc>https://secmetrics.no/services/biometrics/introduction/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>

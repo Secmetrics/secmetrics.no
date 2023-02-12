@@ -7,7 +7,7 @@ draft = false
 template = "news/page.html"
 
 [taxonomies]
-authors = ["Public"]
+authors = ["Secmetrics"]
 
 [extra]
 lead = "Mathematical notation in a project can be enabled by using third party JavaScript libraries."

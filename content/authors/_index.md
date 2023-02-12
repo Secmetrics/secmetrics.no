@@ -12,7 +12,7 @@ draft = false
 #
 # Note: We use quoted keys here.
 [extra.author_pages]
-"secmetrics-as" = "authors/secmetrics-as.md"
+"Secmetrics" = "authors/secmetrics.md"
 +++
 
 The authors of the blog articles.
