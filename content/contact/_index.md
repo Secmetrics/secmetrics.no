@@ -15,6 +15,10 @@ Raufossvegen 40, 2821 Gjøvik, Norway
 
 ## Email
 
-[hello@secmetrics](mailto:hello@secmetrics)
+[hello@secmetrics.no](mailto:hello@secmetrics.no)
+
+## Telephone
+
++47 96973679
 
 
