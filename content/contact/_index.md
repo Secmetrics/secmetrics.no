@@ -11,14 +11,10 @@ class = "page single"
 
 ## Address
 
-Raufossvegen 40, 2821 Gjøvik, Norway
+Hunnsvegen 3, 2821 Gjøvik, Norway
 
 ## Email
 
 [hello@secmetrics.no](mailto:hello@secmetrics.no)
-
-## Telephone
-
-+47 96973679
 
 

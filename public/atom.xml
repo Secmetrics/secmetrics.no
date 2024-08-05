@@ -1,29 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>Secmetrics AS</title>
-	<subtitle>Secmetrics AS is a security and biometric services provider located in Gjøvik, Norway.</subtitle>
-	<link href="https://secmetrics.no/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://secmetrics.no"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-01-01T08:50:45+00:00</updated>
-	<id>https://secmetrics.no/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Secmetrics AS</title>
-		<published>2022-01-01T08:50:45+00:00</published>
-		<updated>2022-01-01T08:50:45+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/authors/secmetrics/" type="text/html"/>
-		<id>https://secmetrics.no/authors/secmetrics/</id>
-		<content type="html">&lt;p&gt;Creator.&lt;&#x2F;p&gt;
+    <title>Secmetrics AS</title>
+    <subtitle>Secmetrics AS is a security and biometric services provider located in Gjøvik, Norway.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://secmetrics.no/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://secmetrics.no"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T08:50:45+00:00</updated>
+    <id>https://secmetrics.no/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Secmetrics AS</title>
+        <published>2022-01-01T08:50:45+00:00</published>
+        <updated>2022-01-01T08:50:45+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/authors/secmetrics/"/>
+        <id>https://secmetrics.no/authors/secmetrics/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/authors/secmetrics/">&lt;p&gt;Creator.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Secmetrics&quot;&gt;@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Hello World</title>
-		<published>2021-05-01T09:19:42+00:00</published>
-		<updated>2021-05-01T09:19:42+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/news/hello-world/" type="text/html"/>
-		<id>https://secmetrics.no/news/hello-world/</id>
-		<content type="html">&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; This is a comment, and is ignored by the compiler
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World</title>
+        <published>2021-05-01T09:19:42+00:00</published>
+        <updated>2021-05-01T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/news/hello-world/"/>
+        <id>https://secmetrics.no/news/hello-world/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/news/hello-world/">&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; This is a comment, and is ignored by the compiler
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; This is the main function
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
@@ -42,88 +63,176 @@
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Hello&lt;&#x2F;span&gt;&lt;span&gt; World!
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Introduction</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/products/bao/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/products/bao/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/products/bao/introduction/"/>
+        <id>https://secmetrics.no/products/bao/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/products/bao/introduction/">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
 &lt;p&gt;One page summary of how to start a new BAO project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;developers&quot;&gt;Developers&lt;&#x2F;h2&gt;
 &lt;p&gt;Get help on out developers page. &lt;a href=&quot;https:&#x2F;&#x2F;developers.baosec.com&#x2F;&quot;&gt;Help →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;contributing&quot;&gt;Contributing&lt;&#x2F;h2&gt;
 &lt;p&gt;Find out how to contribute to BAO. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Secmetrics&quot;&gt;Contributing →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>SecGate&#x2F;SecKey</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/products/secgate-seckey/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/products/secgate-seckey/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SecGate&#x2F;SecKey</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/products/secgate-seckey/introduction/"/>
+        <id>https://secmetrics.no/products/secgate-seckey/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/products/secgate-seckey/introduction/">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>SecTower</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/products/sectower/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/products/sectower/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SecTower</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/products/sectower/introduction/"/>
+        <id>https://secmetrics.no/products/sectower/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/products/sectower/introduction/">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Access control</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/services/access-control/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/services/access-control/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Access control</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/services/access-control/introduction/"/>
+        <id>https://secmetrics.no/services/access-control/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/services/access-control/introduction/">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Biometrics</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/services/biometrics/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/services/biometrics/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Biometrics</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/services/biometrics/introduction/"/>
+        <id>https://secmetrics.no/services/biometrics/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/services/biometrics/introduction/">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Penetration testing</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/services/penetration-testing/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/services/penetration-testing/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Penetration testing</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/services/penetration-testing/introduction/"/>
+        <id>https://secmetrics.no/services/penetration-testing/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/services/penetration-testing/introduction/">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Security auditing</title>
-		<published>2021-05-01T08:00:00+00:00</published>
-		<updated>2021-05-01T08:00:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/services/security-auditing/introduction/" type="text/html"/>
-		<id>https://secmetrics.no/services/security-auditing/introduction/</id>
-		<content type="html">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Security auditing</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/services/security-auditing/introduction/"/>
+        <id>https://secmetrics.no/services/security-auditing/introduction/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/services/security-auditing/introduction/">&lt;h2 id=&quot;info&quot;&gt;Info&lt;&#x2F;h2&gt;
 &lt;p&gt;Contact us for more information. &lt;a href=&quot;mailto:hello@secmetrics&quot;&gt;hello@secmetrics&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Markdown Syntax Guide</title>
-		<published>2021-04-20T09:19:42+00:00</published>
-		<updated>2021-04-20T09:19:42+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/news/markdown-syntax/" type="text/html"/>
-		<id>https://secmetrics.no/news/markdown-syntax/</id>
-		<content type="html">&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Markdown Syntax Guide</title>
+        <published>2021-04-20T09:19:42+00:00</published>
+        <updated>2021-04-20T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/news/markdown-syntax/"/>
+        <id>https://secmetrics.no/news/markdown-syntax/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/news/markdown-syntax/">&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section
 headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; is the lowest.&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;
@@ -246,14 +355,25 @@ during Gopherfest, November 18, 2015.&lt;&#x2F;p&gt;
 &lt;p&gt;The quote is the first sentence of Aristotle&#x27;s &lt;a href=&quot;http:&#x2F;&#x2F;classics.mit.edu&#x2F;Aristotle&#x2F;metaphysics.html&quot;&gt;Metaphysics&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;div&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Placeholder Text</title>
-		<published>2021-04-10T09:19:42+00:00</published>
-		<updated>2021-04-10T09:19:42+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/news/placeholder-text/" type="text/html"/>
-		<id>https://secmetrics.no/news/placeholder-text/</id>
-		<content type="html">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Placeholder Text</title>
+        <published>2021-04-10T09:19:42+00:00</published>
+        <updated>2021-04-10T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/news/placeholder-text/"/>
+        <id>https://secmetrics.no/news/placeholder-text/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/news/placeholder-text/">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit
 teque digerit hominumque toris verebor lumina non cervice subde tollit usus
 habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus
 inhospita parcite confusaque translucet patri vestro qui optatis lumine
@@ -296,14 +416,25 @@ Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt
 .canon { background: white; width: 100%; height: auto; }
 &lt;&#x2F;style&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Math Typesetting</title>
-		<published>2021-04-08T09:19:42+00:00</published>
-		<updated>2021-04-08T09:19:42+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/news/math-typesetting/" type="text/html"/>
-		<id>https://secmetrics.no/news/math-typesetting/</id>
-		<content type="html">&lt;p&gt;In this example we will be using &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;&quot;&gt;KaTeX&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Math Typesetting</title>
+        <published>2021-04-08T09:19:42+00:00</published>
+        <updated>2021-04-08T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/news/math-typesetting/"/>
+        <id>https://secmetrics.no/news/math-typesetting/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/news/math-typesetting/">&lt;p&gt;In this example we will be using &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;&quot;&gt;KaTeX&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a macro under &lt;code&gt;&#x2F;template&#x2F;macros&#x2F;math.html&lt;&#x2F;code&gt; with a macro named &lt;code&gt;math&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
 &lt;li&gt;Within this macro reference the &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;Auto-render Extension&lt;&#x2F;a&gt; or host these scripts locally.&lt;&#x2F;li&gt;
@@ -332,14 +463,25 @@ $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>FAQ</title>
-		<published>2021-01-01T19:30:00+00:00</published>
-		<updated>2021-01-01T19:30:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/products/help/faq/" type="text/html"/>
-		<id>https://secmetrics.no/products/help/faq/</id>
-		<content type="html">&lt;h2 id=&quot;what-is-secmetrics-as&quot;&gt;What is Secmetrics AS?&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FAQ</title>
+        <published>2021-01-01T19:30:00+00:00</published>
+        <updated>2021-01-01T19:30:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/products/help/faq/"/>
+        <id>https://secmetrics.no/products/help/faq/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/products/help/faq/">&lt;h2 id=&quot;what-is-secmetrics-as&quot;&gt;What is Secmetrics AS?&lt;&#x2F;h2&gt;
 &lt;p&gt;Secmetrics AS is an innovation startup located in Gjøvik, Norway.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -354,14 +496,25 @@ $$&lt;&#x2F;p&gt;
 &lt;li&gt;&lt;a href=&quot;mailto:hello@secmetrics.no&quot;&gt;hello@secmetrics.no&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Quick Start</title>
-		<published>2021-01-01T08:20:00+00:00</published>
-		<updated>2021-01-01T08:20:00+00:00</updated>
-		<link rel="alternate" href="https://secmetrics.no/products/bao/quick-start/" type="text/html"/>
-		<id>https://secmetrics.no/products/bao/quick-start/</id>
-		<content type="html">&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;&#x2F;h2&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Quick Start</title>
+        <published>2021-01-01T08:20:00+00:00</published>
+        <updated>2021-01-01T08:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://secmetrics.no/products/bao/quick-start/"/>
+        <id>https://secmetrics.no/products/bao/quick-start/</id>
+        
+        <content type="html" xml:base="https://secmetrics.no/products/bao/quick-start/">&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;&#x2F;h2&gt;
 &lt;p&gt;In order to use BAO, you need to create an application in our Web Console, then follow the API instruction to complete the integration.&lt;&#x2F;p&gt;
 &lt;p&gt;The following example logic flow shows an U2F Registration process by using BAO:&lt;&#x2F;p&gt;
 &lt;ol&gt;
@@ -411,5 +564,6 @@ $$&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 </content>
-	</entry>
+        
+    </entry>
 </feed>
