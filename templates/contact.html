@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h1 class="mb-5">Contact Us</h1>
+                <div class="row g-4 mb-5">
+                    <div class="col-md-4">
+                        <div class="contact-info-card text-center p-4">
+                            <div class="icon-wrapper mb-3 mx-auto">
+                                <i class="fas fa-envelope fa-2x text-success"></i>
+                            </div>
+                            <h3 class="h5 mb-3">Email Us</h3>
+                            <p class="mb-0"><a href="mailto:hello@secmetrics.no">hello@secmetrics.no</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-info-card text-center p-4">
+                            <div class="icon-wrapper mb-3 mx-auto">
+                                <i class="fas fa-map-marker-alt fa-2x text-success"></i>
+                            </div>
+                            <h3 class="h5 mb-3">Visit Us</h3>
+                            <p class="mb-0">Hunnsvegen 3, 2817 Gjøvik, Norway</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-info-card text-center p-4">
+                            <div class="icon-wrapper mb-3 mx-auto">
+                                <i class="fas fa-clock fa-2x text-success"></i>
+                            </div>
+                            <h3 class="h5 mb-3">Business Hours</h3>
+                            <p class="mb-0">Monday - Friday<br>9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta-card p-5 text-center">
+                    <h2 class="h3 mb-4">Ready to Get Started?</h2>
+                    <p class="lead mb-4">Contact us today to learn how we can help protect your business.</p>
+                    <a href="mailto:hello@secmetrics.no" class="btn btn-primary btn-lg">
+                        <i class="fas fa-envelope me-2"></i>Send us an Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
