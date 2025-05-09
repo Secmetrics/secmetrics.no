@@ -1,88 +1,134 @@
 {% extends "base.html" %}
 
-{% block seo %}
-  {{ super() }}
-
-  {% if config.title %}
-    {% set title = config.title %}
-  {% else %}
-    {% set title = "" %}
-  {% endif %}
-  
-  {% if config.extra.title_addition and title %}
-    {% set title_addition = title_separator ~ config.extra.title_addition %}
-  {% elif config.extra.title_addition %}
-    {% set title_addition = config.extra.title_addition %}
-  {% else %}
-    {% set title_addition = "" %}
-  {% endif %}
-  
-  {% set description = config.description %}
-  
-  {{ macros_head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
-{% endblock seo %}
-
 {% block content %}
-<div class="wrap container" role="document">
-  <div class="content">
-    <section class="section container-fluid mt-n3 pb-3">
-      <div class="row justify-content-center">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-0">{{ section.title | default(value="Modern Documentation Theme") }}</h1>
-        </div>
-        <div class="col-lg-9 col-xl-8 text-center">
-          <p class="lead">{{ section.extra.lead | default(value="Please start setting config.toml and adding your content.") | safe }}</p>
-          <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ get_url(path=section.extra.url | default(value="/")) | safe }}" role="button">{{ section.extra.url_button | default(value="Get started") }}</a>
-          <p class="meta">{{ section.extra.repo_license | default(value="MIT")}} <a href="{{ section.extra.repo_url | default(value="https://github.com/Secmetrics/secmetrics.no") | safe }}">{{ section.extra.repo_version | default(value="0.1.0") }}</a></p>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
-
-<section class="section section-sm">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      {% if section.extra.list %}
-        {% for val in section.extra.list %}
-        <div class="col-lg-5">
-          <h2 class="h4">{{ val.title }}</h2>
-          <p>{{ val.content | safe }}</p>
-        </div>
-        {% endfor %}
-      {% else %}
-        <div class="col-lg-5">
-          <h2 class="h4">Security aware</h2>
-          <p>Get A+ scores on <a href="https://observatory.mozilla.org/analyze/secmetrics.no">Mozilla Observatory</a> out of the box. Easily change the default Security Headers to suit your needs.</p>
-        </div>      
-        <div class="col-lg-5">
-          <h2 class="h4">Fast by default ⚡️</h2>
-          <p>Get 100 scores on <a href="https://pagespeed.web.dev/">Google Lighthouse</a> by default. It removes unused css, prefetches links, and lazy loads images.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">SEO-ready</h2>
-          <p>Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Full text search</h2>
-          <p>Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Page layouts</h2>
-          <p>Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.</p>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Dark mode</h2>
-          <p>Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.</p>
-        </div>
-      {% endif %}
+<!-- Hero Section -->
+<section class="hero position-relative text-light">
+    <div class="hero-video">
+        <video autoplay muted loop playsinline class="hero-video-element">
+            <source src="{{ get_url(path='videos/main-bg.mp4') }}" type="video/mp4">
+        </video>
     </div>
-  </div>
+    <div class="hero-overlay"></div>
+    <div class="container position-relative py-5">
+        <div class="row min-vh-75 align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-3 fw-bold mb-4">
+                    {{ config.extra.hero_title | default(value="Advanced Cybersecurity Solutions") }}
+                </h1>
+                <p class="lead mb-4">
+                    {{ config.extra.hero_subtitle | default(value="Protecting your business with enterprise-grade
+                    security intelligence and real-time threat prevention") }}
+                </p>
+                <div class="d-flex gap-3">
+                    <a href="/contact" class="btn btn-primary btn-lg px-4">Schedule a Demo</a>
+                    <a href="/services" class="btn btn-outline-light btn-lg px-4">Explore Solutions</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="section section-sm container-fluid">
-  <div class="row justify-content-center text-center">
-    <div class="col-lg-9"></div>
-  </div>
+<!-- Services Overview -->
+<section class="py-5 bg-gradient">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-shield-alt fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3 text-light">Threat Detection</h3>
+                    <p class="text-light-muted mb-3">Advanced AI-powered threat detection and response system</p>
+                    <a href="/services#threat-detection" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-lock fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Security Assessment</h3>
+                    <p class="text-muted mb-3">Comprehensive security audits and vulnerability assessment</p>
+                    <a href="/services#assessment" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-code fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Secure Development</h3>
+                    <p class="text-muted mb-3">Secure coding practices and application security testing</p>
+                    <a href="/services#development" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-code fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Secure Development</h3>
+                    <p class="text-muted mb-3">Secure coding practices and application security testing</p>
+                    <a href="/services#development" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="py-5 bg-black">
+    <div class="container">
+        <h2 class="text-center mb-5 text-light">Why Choose Us</h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>99.9%</h3>
+                    <p class="text-light">Threat Detection Rate</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>24/7</h3>
+                    <p>Security Monitoring</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>150+</h3>
+                    <p>Enterprise Clients</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>&lt;10s</h3>
+                    <p>Response Time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Latest News -->
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Latest Security Updates</h2>
+            <a href="/news" class="btn btn-outline-success">View All</a>
+        </div>
+        <div class="row g-4">
+            {% for post in section.pages | slice(end=3) %}
+            <div class="col-md-4">
+                <div class="news-card h-100">
+                    <div class="card-body p-4">
+                        <h5 class="card-title h4 mb-3">{{ post.title }}</h5>
+                        <p class="card-text text-muted mb-4">{{ post.description }}</p>
+                        <a href="{{ post.permalink }}" class="btn btn-link text-success p-0">Read more →</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </section>
 {% endblock content %}
