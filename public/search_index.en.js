@@ -11,6 +11,26 @@ window.searchIndex = {
         c: {
           docs: {},
           df: 0,
+          a: {
+            docs: {},
+            df: 0,
+            r: {
+              docs: {},
+              df: 0,
+              e: {
+                docs: {},
+                df: 0,
+                e: {
+                  docs: {},
+                  df: 0,
+                  r: {
+                    docs: { "https://secmetrics.no/careers/": { tf: 1.0 } },
+                    df: 1,
+                  },
+                },
+              },
+            },
+          },
           o: {
             docs: {},
             df: 0,
@@ -27,7 +47,7 @@ window.searchIndex = {
                     docs: {},
                     df: 0,
                     t: {
-                      docs: { "http://127.0.0.1:1111/contact/": { tf: 1.0 } },
+                      docs: { "https://secmetrics.no/contact/": { tf: 1.0 } },
                       df: 1,
                     },
                   },
@@ -45,8 +65,17 @@ window.searchIndex = {
             m: {
               docs: {},
               df: 0,
-              e: { docs: { "http://127.0.0.1:1111/": { tf: 1.0 } }, df: 1 },
+              e: { docs: { "https://secmetrics.no/": { tf: 1.0 } }, df: 1 },
             },
+          },
+        },
+        n: {
+          docs: {},
+          df: 0,
+          e: {
+            docs: {},
+            df: 0,
+            w: { docs: { "https://secmetrics.no/news/": { tf: 1.0 } }, df: 1 },
           },
         },
         p: {
@@ -58,7 +87,7 @@ window.searchIndex = {
             g: {
               docs: {},
               df: 0,
-              e: { docs: { "http://127.0.0.1:1111/": { tf: 1.0 } }, df: 1 },
+              e: { docs: { "https://secmetrics.no/": { tf: 1.0 } }, df: 1 },
             },
           },
           o: {
@@ -74,7 +103,7 @@ window.searchIndex = {
                   docs: {},
                   df: 0,
                   i: {
-                    docs: { "http://127.0.0.1:1111/privacy/": { tf: 1.0 } },
+                    docs: { "https://secmetrics.no/privacy/": { tf: 1.0 } },
                     df: 1,
                   },
                 },
@@ -97,7 +126,27 @@ window.searchIndex = {
                     docs: {},
                     df: 0,
                     i: {
-                      docs: { "http://127.0.0.1:1111/privacy/": { tf: 1.0 } },
+                      docs: { "https://secmetrics.no/privacy/": { tf: 1.0 } },
+                      df: 1,
+                    },
+                  },
+                },
+              },
+            },
+            o: {
+              docs: {},
+              df: 0,
+              d: {
+                docs: {},
+                df: 0,
+                u: {
+                  docs: {},
+                  df: 0,
+                  c: {
+                    docs: {},
+                    df: 0,
+                    t: {
+                      docs: { "https://secmetrics.no/products/": { tf: 1.0 } },
                       df: 1,
                     },
                   },
@@ -122,8 +171,11 @@ window.searchIndex = {
                   docs: {},
                   df: 0,
                   c: {
-                    docs: { "http://127.0.0.1:1111/terms/": { tf: 1.0 } },
-                    df: 1,
+                    docs: {
+                      "https://secmetrics.no/services/": { tf: 1.0 },
+                      "https://secmetrics.no/terms/": { tf: 1.0 },
+                    },
+                    df: 2,
                   },
                 },
               },
@@ -140,7 +192,7 @@ window.searchIndex = {
               docs: {},
               df: 0,
               m: {
-                docs: { "http://127.0.0.1:1111/terms/": { tf: 1.0 } },
+                docs: { "https://secmetrics.no/terms/": { tf: 1.0 } },
                 df: 1,
               },
             },
@@ -155,6 +207,26 @@ window.searchIndex = {
         c: {
           docs: {},
           df: 0,
+          a: {
+            docs: {},
+            df: 0,
+            r: {
+              docs: {},
+              df: 0,
+              e: {
+                docs: {},
+                df: 0,
+                e: {
+                  docs: {},
+                  df: 0,
+                  r: {
+                    docs: { "https://secmetrics.no/careers/": { tf: 1.0 } },
+                    df: 1,
+                  },
+                },
+              },
+            },
+          },
           o: {
             docs: {},
             df: 0,
@@ -171,7 +243,7 @@ window.searchIndex = {
                     docs: {},
                     df: 0,
                     t: {
-                      docs: { "http://127.0.0.1:1111/contact/": { tf: 1.0 } },
+                      docs: { "https://secmetrics.no/contact/": { tf: 1.0 } },
                       df: 1,
                     },
                   },
@@ -189,8 +261,17 @@ window.searchIndex = {
             m: {
               docs: {},
               df: 0,
-              e: { docs: { "http://127.0.0.1:1111/": { tf: 1.0 } }, df: 1 },
+              e: { docs: { "https://secmetrics.no/": { tf: 1.0 } }, df: 1 },
             },
+          },
+        },
+        n: {
+          docs: {},
+          df: 0,
+          e: {
+            docs: {},
+            df: 0,
+            w: { docs: { "https://secmetrics.no/news/": { tf: 1.0 } }, df: 1 },
           },
         },
         p: {
@@ -202,7 +283,7 @@ window.searchIndex = {
             g: {
               docs: {},
               df: 0,
-              e: { docs: { "http://127.0.0.1:1111/": { tf: 1.0 } }, df: 1 },
+              e: { docs: { "https://secmetrics.no/": { tf: 1.0 } }, df: 1 },
             },
           },
           o: {
@@ -218,7 +299,7 @@ window.searchIndex = {
                   docs: {},
                   df: 0,
                   i: {
-                    docs: { "http://127.0.0.1:1111/privacy/": { tf: 1.0 } },
+                    docs: { "https://secmetrics.no/privacy/": { tf: 1.0 } },
                     df: 1,
                   },
                 },
@@ -241,7 +322,27 @@ window.searchIndex = {
                     docs: {},
                     df: 0,
                     i: {
-                      docs: { "http://127.0.0.1:1111/privacy/": { tf: 1.0 } },
+                      docs: { "https://secmetrics.no/privacy/": { tf: 1.0 } },
+                      df: 1,
+                    },
+                  },
+                },
+              },
+            },
+            o: {
+              docs: {},
+              df: 0,
+              d: {
+                docs: {},
+                df: 0,
+                u: {
+                  docs: {},
+                  df: 0,
+                  c: {
+                    docs: {},
+                    df: 0,
+                    t: {
+                      docs: { "https://secmetrics.no/products/": { tf: 1.0 } },
                       df: 1,
                     },
                   },
@@ -266,8 +367,11 @@ window.searchIndex = {
                   docs: {},
                   df: 0,
                   c: {
-                    docs: { "http://127.0.0.1:1111/terms/": { tf: 1.0 } },
-                    df: 1,
+                    docs: {
+                      "https://secmetrics.no/services/": { tf: 1.0 },
+                      "https://secmetrics.no/terms/": { tf: 1.0 },
+                    },
+                    df: 2,
                   },
                 },
               },
@@ -284,7 +388,7 @@ window.searchIndex = {
               docs: {},
               df: 0,
               m: {
-                docs: { "http://127.0.0.1:1111/terms/": { tf: 1.0 } },
+                docs: { "https://secmetrics.no/terms/": { tf: 1.0 } },
                 df: 1,
               },
             },
@@ -296,34 +400,64 @@ window.searchIndex = {
   documentStore: {
     save: true,
     docs: {
-      "http://127.0.0.1:1111/": {
+      "https://secmetrics.no/": {
         body: "",
-        id: "http://127.0.0.1:1111/",
+        id: "https://secmetrics.no/",
         title: "Home page",
       },
-      "http://127.0.0.1:1111/contact/": {
+      "https://secmetrics.no/about/": {
         body: "",
-        id: "http://127.0.0.1:1111/contact/",
+        id: "https://secmetrics.no/about/",
+        title: "About Us",
+      },
+      "https://secmetrics.no/careers/": {
+        body: "",
+        id: "https://secmetrics.no/careers/",
+        title: "Careers",
+      },
+      "https://secmetrics.no/contact/": {
+        body: "",
+        id: "https://secmetrics.no/contact/",
         title: "Contact",
       },
-      "http://127.0.0.1:1111/privacy/": {
+      "https://secmetrics.no/news/": {
         body: "",
-        id: "http://127.0.0.1:1111/privacy/",
+        id: "https://secmetrics.no/news/",
+        title: "News",
+      },
+      "https://secmetrics.no/privacy/": {
+        body: "",
+        id: "https://secmetrics.no/privacy/",
         title: "Privacy Policy",
       },
-      "http://127.0.0.1:1111/terms/": {
+      "https://secmetrics.no/products/": {
         body: "",
-        id: "http://127.0.0.1:1111/terms/",
+        id: "https://secmetrics.no/products/",
+        title: "Products",
+      },
+      "https://secmetrics.no/services/": {
+        body: "",
+        id: "https://secmetrics.no/services/",
+        title: "Services",
+      },
+      "https://secmetrics.no/terms/": {
+        body: "",
+        id: "https://secmetrics.no/terms/",
         title: "Terms of Service",
       },
     },
     docInfo: {
-      "http://127.0.0.1:1111/": { body: 0, title: 2 },
-      "http://127.0.0.1:1111/contact/": { body: 0, title: 1 },
-      "http://127.0.0.1:1111/privacy/": { body: 0, title: 2 },
-      "http://127.0.0.1:1111/terms/": { body: 0, title: 2 },
+      "https://secmetrics.no/": { body: 0, title: 2 },
+      "https://secmetrics.no/about/": { body: 0, title: 0 },
+      "https://secmetrics.no/careers/": { body: 0, title: 1 },
+      "https://secmetrics.no/contact/": { body: 0, title: 1 },
+      "https://secmetrics.no/news/": { body: 0, title: 1 },
+      "https://secmetrics.no/privacy/": { body: 0, title: 2 },
+      "https://secmetrics.no/products/": { body: 0, title: 1 },
+      "https://secmetrics.no/services/": { body: 0, title: 1 },
+      "https://secmetrics.no/terms/": { body: 0, title: 2 },
     },
-    length: 4,
+    length: 9,
   },
   lang: "English",
 };

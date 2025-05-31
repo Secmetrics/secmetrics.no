@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="py-5 bg-gradient">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8">
+                <h1 class="display-4 fw-bold mb-4">Latest News</h1>
+                <p class="lead mb-5">Stay updated with the latest cybersecurity trends, threats, and Secmetrics
+                    announcements</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- News Articles -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Featured Article -->
+            <div class="col-lg-8">
+                <article class="news-card featured p-4 mb-4">
+                    <div class="news-meta mb-3">
+                        <span class="badge bg-success me-2">Featured</span>
+                        <span class="text-muted">December 15, 2024</span>
+                    </div>
+                    <h2 class="h4 mb-3">The Future of AI-Powered Cybersecurity</h2>
+                    <p class="mb-4">Artificial Intelligence is revolutionizing the cybersecurity landscape. Learn how
+                        AI-powered solutions are helping organizations stay ahead of sophisticated threats and what this
+                        means for the future of digital security.</p>
+                    <a href="#" class="btn btn-outline-success">Read More</a>
+                </article>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <div class="sidebar-widget mb-4">
+                    <h3 class="h5 mb-3">Categories</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Threat Intelligence</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Product Updates</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Industry News</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Best Practices</a></li>
+                        <li class="mb-2"><a href="#" class="text-decoration-none">Company News</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h3 class="h5 mb-3">Recent Posts</h3>
+                    <div class="recent-post mb-3">
+                        <h4 class="h6 mb-1">Zero Trust Architecture Implementation</h4>
+                        <small class="text-muted">December 10, 2024</small>
+                    </div>
+                    <div class="recent-post mb-3">
+                        <h4 class="h6 mb-1">GDPR Compliance in 2024</h4>
+                        <small class="text-muted">December 5, 2024</small>
+                    </div>
+                    <div class="recent-post mb-3">
+                        <h4 class="h6 mb-1">Biometric Security Trends</h4>
+                        <small class="text-muted">November 28, 2024</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- News Grid -->
+        <div class="row g-4 mt-4">
+            <div class="col-md-6">
+                <article class="news-card p-4">
+                    <div class="news-meta mb-3">
+                        <span class="text-muted">December 10, 2024</span>
+                    </div>
+                    <h3 class="h5 mb-3">Zero Trust Architecture: A Comprehensive Guide</h3>
+                    <p class="mb-3">Implementing Zero Trust Architecture in modern enterprises. Learn the key principles
+                        and best practices for a successful deployment.</p>
+                    <a href="#" class="btn btn-sm btn-outline-success">Read More</a>
+                </article>
+            </div>
+
+            <div class="col-md-6">
+                <article class="news-card p-4">
+                    <div class="news-meta mb-3">
+                        <span class="text-muted">December 5, 2024</span>
+                    </div>
+                    <h3 class="h5 mb-3">GDPR Compliance Updates for 2024</h3>
+                    <p class="mb-3">New regulations and requirements for GDPR compliance. Stay informed about the latest
+                        changes and how they affect your business.</p>
+                    <a href="#" class="btn btn-sm btn-outline-success">Read More</a>
+                </article>
+            </div>
+
+            <div class="col-md-6">
+                <article class="news-card p-4">
+                    <div class="news-meta mb-3">
+                        <span class="text-muted">November 28, 2024</span>
+                    </div>
+                    <h3 class="h5 mb-3">Emerging Biometric Security Trends</h3>
+                    <p class="mb-3">Explore the latest developments in biometric authentication technology and their
+                        impact on enterprise security.</p>
+                    <a href="#" class="btn btn-sm btn-outline-success">Read More</a>
+                </article>
+            </div>
+
+            <div class="col-md-6">
+                <article class="news-card p-4">
+                    <div class="news-meta mb-3">
+                        <span class="text-muted">November 20, 2024</span>
+                    </div>
+                    <h3 class="h5 mb-3">Multi-Factor Authentication Best Practices</h3>
+                    <p class="mb-3">Essential guidelines for implementing effective multi-factor authentication across
+                        your organization.</p>
+                    <a href="#" class="btn btn-sm btn-outline-success">Read More</a>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="py-5 bg-darker">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h2 class="h3 mb-4">Stay Informed</h2>
+                <p class="mb-4">Subscribe to our newsletter for the latest cybersecurity insights and Secmetrics
+                    updates.</p>
+                <form class="d-flex gap-2">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                    <button type="submit" class="btn btn-success">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}
