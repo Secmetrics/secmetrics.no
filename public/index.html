@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" href="https://secmetrics.no/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://secmetrics.no/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://secmetrics.no/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://secmetrics.no/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://secmetrics.no/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://secmetrics.no/css/custom.css">
+</head>
+
+<body class="bg-custom text-light d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fs-3" href="/">
+                <img src="https://secmetrics.no/secmetrics_100.png" alt="Secmetrics Logo" height="40" class="me-2">Secmetrics AS
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/products" id="productsDropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="/products#ai-detection">AI Detection</a></li>
+                            <li><a class="dropdown-item" href="/products#biometrics">Biometrics</a></li>
+                            <li><a class="dropdown-item" href="/products#gdpr-compliance">GDPR Compliance</a></li>
+                            <li><a class="dropdown-item" href="/products#mfa">MFA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/services" id="productsDropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="/services#ai-agents">AI Agents</a></li>
+                            <li><a class="dropdown-item" href="/services#mcp">MCP</a></li>
+                            <li><a class="dropdown-item" href="/services#osdu">OSDU</a></li>
+                            <li><a class="dropdown-item" href="/services#consulting">Consulting</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+        
+<!-- Hero Section -->
+<section class="hero position-relative text-light">
+    <div class="hero-video">
+        <video autoplay muted loop playsinline class="hero-video-element">
+            <source src="https://secmetrics.no/videos/main-bg.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container position-relative py-5">
+        <div class="row min-vh-75 align-items-center">
+            <div class="col-lg-8">
+                <h1 class="display-3 fw-bold mb-4">
+                    Secure Your Digital Future
+                </h1>
+                <p class="lead mb-4">
+                    Protect your digital assets with AI-powered security solutions.
+                </p>
+                <div class="d-flex gap-3">
+                    <a href="/contact" class="btn btn-primary btn-lg px-4">Schedule a Demo</a>
+                    <a href="/services" class="btn btn-outline-light btn-lg px-4">Explore Solutions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Overview -->
+<section class="py-5 bg-gradient">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-shield-alt fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3 text-light">Threat Detection</h3>
+                    <p class="text-light-muted mb-3">Advanced AI-powered threat detection and response system</p>
+                    <a href="/services#threat-detection" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-lock fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Security Assessment</h3>
+                    <p class="text-muted mb-3">Comprehensive security audits and vulnerability assessment</p>
+                    <a href="/services#assessment" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-code fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Secure Development</h3>
+                    <p class="text-muted mb-3">Secure coding practices and application security testing</p>
+                    <a href="/services#development" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="service-card p-3">
+                    <div class="icon-wrapper mb-3">
+                        <i class="fas fa-code fa-2x text-success"></i>
+                    </div>
+                    <h3 class="h4 mb-3">Secure Development</h3>
+                    <p class="text-muted mb-3">Secure coding practices and application security testing</p>
+                    <a href="/services#development" class="btn btn-link text-success p-0">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="py-5 bg-black">
+    <div class="container">
+        <h2 class="text-center mb-5 text-light">Why Choose Us</h2>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>99.9%</h3>
+                    <p class="text-light">Threat Detection Rate</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>24/7</h3>
+                    <p>Security Monitoring</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>150+</h3>
+                    <p>Enterprise Clients</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-card text-center">
+                    <h3>&lt;10s</h3>
+                    <p>Response Time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Latest News -->
+<section class="py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2>Latest Security Updates</h2>
+            <a href="/news" class="btn btn-outline-success">View All</a>
+        </div>
+        <div class="row g-4">
+            
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-darker py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-4">
+                        <img src="https://secmetrics.no/secmetrics_100.png" alt="Secmetrics Logo" height="40"
+                            class="me-2">
+                        <span class="fs-5">Secmetrics AS</span>
+                    </div>
+                    <p class="mb-4">Leading provider of advanced
+                        cybersecurity solutions, protecting businesses in an ever-evolving digital landscape.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Solutions</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="/products#threat-detection">Threat Detection</a></li>
+                        <li><a href="/products#incident-response">Incident Response</a></li>
+                        <li><a href="/products#compliance">Compliance</a></li>
+                        <li><a href="/products#consulting">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="mb-4">Company</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/news">News</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h5 class="mb-4">Contact Us</h5>
+                    <ul class="list-unstyled contact-info">
+                        <li class="mb-3">
+                            <i class="fas fa-envelope me-2"></i>
+                            <a href="mailto:hello@secmetrics.no">hello@secmetrics.no</a>
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            <span>Hunnsvegen 3, 2817 Gjøvik, Norway</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-md-0">© 2025 Secmetrics AS. All rights
+                        reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end contact-info">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://secmetrics.no/js/scripts.js"></script>
+</body>
+
+</html>
